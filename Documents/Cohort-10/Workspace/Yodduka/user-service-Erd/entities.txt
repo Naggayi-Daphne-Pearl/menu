@@ -1,0 +1,59 @@
+Entities For the User-Service
+
+Company Manager 
+    PK - companyId int
+        companyName varchar(50)
+    FK-ShopNumber varchar(50)
+    FK- Role varchar(255)
+
+ Stores Manager 
+    PK -IdManager int
+    FK-  NameOfManager (255)
+        email varchar(50)
+        PhoneNumber varchar(13)
+    FK- shopTenants
+    FK -ShopNumber
+    FK - role
+
+Shop 
+    PK-ShopNumber varchar(50)
+    FK- ManagerAssigned varchar(255)
+    FK - ProductID int
+
+
+Store Tenants 
+    PK- TenantID int
+    FK- NameOfManager varchar(255)
+        Name varchar(255)
+        PhoneNumber varchar(13)
+        Email varchar(50)
+    FK - Role varchar(255)
+        ShopNumber varchar(50)
+
+Products 
+    PK- ProductID int
+        ProductImage 
+        dateOfPurchase varchar(255)
+        ShopNumber varchar(50)
+    Fk- ManagerAssigned varchar(255)
+
+Subscription Plan 
+    PK- UserId  int
+        role varchar(255)
+        NumberOfApiCalls int
+
+
+
+
+
+
+
+
+
+        
+
+    
+
+
+
+

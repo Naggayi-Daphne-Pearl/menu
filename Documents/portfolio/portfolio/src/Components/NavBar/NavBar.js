@@ -32,8 +32,8 @@ const NavBar = () => {
                             <img src={profileImage} alt='#' style={{
                                 // margin: 'auto',
                                 display: 'block',
-                                width: '2.3rem',
-                                height: '2.3rem',
+                                width: '2rem',
+                                height: '2rem',
                                 borderRadius: '1.5rem',
                                 mr:4,
                             }} />

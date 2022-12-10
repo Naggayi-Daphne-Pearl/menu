@@ -163,7 +163,7 @@ Menu
 */
 
 .menu {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 .title {
   text-align: center;
@@ -208,8 +208,8 @@ Menu
 }
 .menu-item {
   display: grid;
-  gap: 1rem 2rem;
-  max-width: 25rem;
+  gap: 2rem 3rem;
+  max-width: 30rem;
 }
 .photo {
   object-fit: cover;
@@ -249,9 +249,11 @@ Menu
   display: inline-block;
   margin-top: 5%;
   justify-content: center;
+  font-weight: 800;
 }
 .btn:hover {
   background: var(--primary-700);
+  color:var(--clr-gold);
   box-shadow: var(--shadow-3);
 }
 
@@ -273,4 +275,14 @@ Menu
   .photo {
     height: 150px;
   }
+}
+
+
+/* Navbar  */
+
+.navbar-links:hover {
+  transition: var(--transition);
+  color:var(--clr-gold);
+  text-decoration: underline; 
+
 }
